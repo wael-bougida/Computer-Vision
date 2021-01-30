@@ -1,0 +1,41 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{CV 2020}
+\author{wbougida }
+\date{November 2020}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+y(n)= x(n) # h(n) = $\sum_{k=-\infty}^{n} {x(k).h(n-k)}$
+
+\section{We know that}
+First let: 
+X= n - k 
+
+k = n- X
+K=\infty --> X = - \infty
+K= - \infty --> X = \infty
+
+
+\section{Therefore}
+
+x(n) # h(n) = $\sum_{k=-\infty}^{n} {x(N-X).h(X)}$
+            = $\sum_{k=-\infty}^{n} {x(X).h(n-X)}$
+
+
+and we know that  $\sum_{k=-\infty}^{n} {x(X).h(n-X)}$ is exactly the
+convolution of the reverted signal where h(n)#x(n) 
+
+
+
+
+
+\end{document}

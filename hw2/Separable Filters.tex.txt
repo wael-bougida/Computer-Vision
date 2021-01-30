@@ -1,0 +1,31 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{CV 2020}
+\author{wbougida }
+\date{November 2020}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+
+\maketitle{}
+
+
+\section{Associativity}
+
+ (x # y)(n) = $\sum_{k=-\infty}^{n} {x(k).y(n-k)}$
+
+\section{We know that}
+
+Let's develop :
+
+ ((x # y)#h)(n) = $\sum_{k=-\infty}^{n} {(x#y)(k)h(n-k}$
+    =  $\sum_{k=-\infty}^{n}(\sum_{m=-\infty}^{n}{(x(l).y(k-m)})h(n-k)$
+   
+   
+    =  $\sum_{k=-\infty}^{n}{(x(m)}(\sum_{k=-\infty}^{n-l}(y(k)h(n-k-m)$               
+    = $\sum_{m=0}^{n}{x(l)(y#h)(n-m)}$
+    
+    = (x*(y*h))(n
